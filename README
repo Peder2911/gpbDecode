@@ -1,0 +1,6 @@
+
+Just a function that decodes the binary format used in the Geopackage format.
+This makes it possible to read in data from Geopackages by just using their
+SQLite form, and parsing the geometries directly. Useful for very large GPKGs.
+
+This is quick and dirty, mostly something i just did for fun.
